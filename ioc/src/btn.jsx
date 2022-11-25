@@ -1,15 +1,11 @@
 import React, { useState } from 'react'
-
 const btn = () => {
     // const [countup,setcountup] = useState(0)
     // const [countdown,setcountdown] = useState(10)
     const [count,setCount] = useState(0)
-
     // const countChage = () =>{
-
     //     if()
     // }
-
     const conup = () =>{
         // setcountup(countup+1)
     }
