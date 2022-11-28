@@ -6,6 +6,7 @@ function text() {
   return (
     <div>
       <p>{Txt}</p>
+      <input type="text" />
       <button onClick={()=>setTxt()}>Inner</button>
     </div>
   )
