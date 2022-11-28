@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function text() {
-    
+    const [Txt,setTxt] = useState("");  
+
   return (
-    <div>text</div>
+    <div>
+      <p>{Txt}</p>
+      <button onClick={()=>setTxt()}>Inner</button>
+    </div>
   )
 }
 
