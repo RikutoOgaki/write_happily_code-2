@@ -6,7 +6,7 @@ function text() {
   return (
     <div>
       <p>{Txt}</p>
-      <input type="text" />
+      <input type="text" className='num'/>
       <button onClick={()=>setTxt()}>Inner</button>
     </div>
   )
