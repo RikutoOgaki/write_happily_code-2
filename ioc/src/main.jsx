@@ -5,8 +5,9 @@ import App2 from "./app2"
 import Btn from "./btn"
 import Text from "./text"
 import Class from "./class"
+import App3 from "./app3"
 // import './index.css'
-import'./class.css'
+// import'./class.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App2 /> */}
     {/* <Btn /> */}
     {/* <Text/> */}
-    <Class/>
+    {/* <Class/> */}
+    <App3/>
   </React.StrictMode>
 )
