@@ -4,7 +4,7 @@ import App from './App'
 import App2 from "./app2"
 import Btn from "./btn"
 import Text from "./text"
-// import './index.css'
+import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

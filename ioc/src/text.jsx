@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 
 function text() {
-    const [Txt,setTxt] = useState("");  
+    const [Txt,setTxt] = useState(false);  
+    const Text = () =>{
+      setTxt(!Txt);
+    }
   return (
     <div>
-      <p>{Txt}</p>
-      <input type="text" id='num' />
-      <button onClick={()=>setTxt()}>Inner</button>
+      <p>{Txt ? "Hello" : "Excuse Me"}</p>
+      <button onClick={Text}>Inner</button>
     </div>
   )
 }
