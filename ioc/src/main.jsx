@@ -19,3 +19,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App3/>
   </React.StrictMode>
 )
+
+// Reactをブラウザで見るコマンド
+// npm run dev
