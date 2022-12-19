@@ -9,6 +9,9 @@ function todo() {
         setAdd(todo)
         setTodo("");
     }
+    const clickDelete = () =>{
+      setAdd("");
+    }
   return (
     <div>
         <input
@@ -16,6 +19,7 @@ function todo() {
             onChange={(event)=>setTodo(event.target.value)}
         />
         <button onClick={clickEvent}>追加</button>
+        <button onClick={clickDelete}>削除</button>
         <p>{add}</p>
     </div>
   )
