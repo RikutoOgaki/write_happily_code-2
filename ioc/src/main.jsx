@@ -11,9 +11,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Btn /> */}
     {/* <Text/> */}
     {/* <Class/> */}
-    {/* <App3/> */}
+    <App3/>
     {/* <Todo/> */}
-    <Page/>
+    {/* <Page/> */}
   </React.StrictMode>
 )
 
