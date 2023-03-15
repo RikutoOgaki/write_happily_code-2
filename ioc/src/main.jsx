@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Page from './page'
+import Rev from './reversi'
 // import './index.css'
 // import'./class.css'
 
@@ -13,7 +13,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Class/> */}
     {/* <App3/> */}
     {/* <Todo/> */}
-    <Page/>
+    {/* <Page/> */}
+    <Rev/>
   </React.StrictMode>
 )
 
